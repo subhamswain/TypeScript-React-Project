@@ -11,7 +11,7 @@ export type Todo={
     createdAt:Date;
 }
 
-export type todosContext={
+export type TodosContext={
     todos:Todo[];
     handleAddTodo:(task:string)=>void; //CALL SIGNATURE
     toggleTodoAsCompleted:(id:string)=>void;
